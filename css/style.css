@@ -1,9 +1,9 @@
 /* Variables */
 :root {
-    --fondo: #B4C5DB;
+    --fondo: #ffffff;
     --color-primario: #000;
-    --color-azul: #728495;
-    --color-azul-claro:#949494;
+    --color-amarillo: #d3be00;
+    --color-amarillo-claro:#949494;
     --titulos: 'font-style', italic;
 }
 
@@ -22,7 +22,8 @@ body {
     background-color: var(--fondo);
 }
 
-h1, h2, p, a {
+
+ h1,h2, p, a {
     font-family: var(--titulos);
 }
 
@@ -37,7 +38,7 @@ header {
 }
 
 .bg-collar span {
-    color: white;
+    color: #d3be00;
 }
 
 .collapse.navbar-collapse {
@@ -129,9 +130,9 @@ nav.bg-collar ul li a:hover {
     position: relative;
     padding: 50px 20px 40px 20px;
     border-radius: 20px;
-    background: linear-gradient(145deg, #B4C5DB, #728495);
-    box-shadow:  20px 20px 60px #728495,
-                 -20px -20px 60px #B4C5DB;
+    background: linear-gradient(145deg, #ffffff, #e2e2e2);
+    box-shadow:  20px 20px 60px #959372,
+                 -20px -20px 60px #dbd7b4;
     transition: .5s;
     max-width: 350px;
     margin: 0 auto;
@@ -142,7 +143,7 @@ nav.bg-collar ul li a:hover {
 #nosotros .card img {
     width: 70px;
     padding: 15px;
-    background-color: #B4C5DB;
+    background-color: #dbd7b4;
     border-radius: 50%;
     position: absolute;
     top: -30px;
@@ -325,9 +326,9 @@ nav.bg-collar ul li a:hover {
 
 #comentarios .container .carousel-inner  {
     border-radius: 50px;
-    background: linear-gradient(145deg, #B4C5DB, #728495);
-    box-shadow:  20px 20px 60px #728495,
-                 -20px -20px 60px #B4C5DB;
+    background: linear-gradient(145deg, #fdf9d2, #fcf7a3);
+    box-shadow:  20px 20px 60px #bbb87b,
+                 -20px -20px 60px #dbd7b4;
 }
 
 #comentarios .carousel-item h3 {
@@ -351,7 +352,7 @@ nav.bg-collar ul li a:hover {
 
 #comentarios button:hover {
     background-color: 1px solid var(--color-primario);
-    color: white;
+    color: rgb(0, 0, 0);
     transform: scale(1.1);
 }
 
@@ -373,7 +374,7 @@ footer .container {
 }
 
 footer span {
-    color:white;
+    color: rgb(211, 190, 0);
 }
 
 footer p {
@@ -422,11 +423,11 @@ footer .container img:hover {
     left: -6px;
     border-radius: 0 12px 12px 0;
     background-color: var(--color-primario);
-    color: white;
+    color:  white;
 }
 
 #suscribite button:hover {
-    opacity: 60%;
+    background-color:  rgb(211, 190, 0);
 }
 
 #suscribite button:active {
