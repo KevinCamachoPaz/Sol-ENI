@@ -67,6 +67,7 @@ nav.bg-collar ul li a:hover {
 /* Hero */
 
 #hero {
+    background-color: #fffde9;
     padding: 150px 0;
 }
 
@@ -187,6 +188,7 @@ nav.bg-collar ul li a:hover {
 /* Carousel Productos*/
 
 #productos {
+    background-color: #fffde9;
     margin: 90px 0 150px 0;
 }
 
@@ -289,7 +291,7 @@ nav.bg-collar ul li a:hover {
     border: none;
     padding: 15px;
     text-align: left;
-    background: white;
+    background-color: #ffffff;
     border-radius: 20px;
 }    
 
